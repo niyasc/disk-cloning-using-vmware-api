@@ -241,7 +241,6 @@ int cloning()
 	else
 		return 0;
 	//success
-	gtk_progress_bar_set_show_text(GTK_PROGRESS_BAR(pbar),FALSE);
 	GtkWidget *dialog;
 	dialog = gtk_message_dialog_new (GTK_WINDOW(window),
                                  GTK_DIALOG_DESTROY_WITH_PARENT,
